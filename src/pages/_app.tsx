@@ -1,8 +1,13 @@
-import "@/styles/globals.css";
-import { UserContext, UserDataProps, UserDataValues } from "@/utils/UserContext";
-import { useAuthentication } from "@/utils/affinidi/hooks/use-authentication";
+import "src/styles/globals.css";
+import 'src/styles/Cart.css';
+import 'src/styles/Checkout.css';
+import 'src/styles/Header.css';
+import 'src/styles/Modal.css';
+import 'src/styles/ProductDisplay.css';
 import type { AppProps } from "next/app";
 import { useEffect, useState } from "react";
+import { UserDataProps, UserDataValues, UserContext } from "src/utils/UserContext";
+import { useAuthentication } from "src/utils/affinidi/hooks/use-authentication";
 
 export default function App({ Component, pageProps }: AppProps) {
 
